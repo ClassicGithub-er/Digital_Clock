@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #1c1c1c, #4c4c4c);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#schedule {
+    font-size: 3rem;
+    text-align: right;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clock {
+    font-size: 15rem;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+#date, #date-format {
+    font-size: 4rem;
+    opacity: 0.8;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#settings {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#cog {
+    font-size: 2rem;
+    cursor: pointer;
+    color: lightgray;
+    transition: color 0.3s;
+}
+
+#cog:hover {
+    color: #fff;
+}
+
+#theme-selector {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    border-radius: 10px;
+    padding: 30px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 200px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#theme-selector h3 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+button {
+    background-color: #4c4c4c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #666666;
+}
+
+.hidden {
+    display: none;
+}
+
+.dark-theme {
+    background: linear-gradient(to bottom right, #000000, #333333);
+    color: #ffffff;
+}
+
+.dgray-theme {
+    background: linear-gradient(to bottom right, #333333, #666666);
+    color: #cccccc;
+}
+
+.gray-theme {
+    background: linear-gradient(to bottom right, #666666, #999999);
+    color: #cccccc;
+}
+
+.lgray-theme {
+    background: linear-gradient(to bottom right, #999999, #cccccc);
+    color: #333333;
+}
+
+.light-theme {
+    background: linear-gradient(to bottom right, #cccccc, #ffffff);
+    color: #333333;
+}
+
+#time-format-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#time-format-buttons button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+#date-format {
+    font-size: 4rem;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 20px;
+}

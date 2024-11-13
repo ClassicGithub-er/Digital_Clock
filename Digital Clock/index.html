@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="icon" href="assets/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="schedule" class="hidden"></div>
+    <div class="container">
+        <div id="clock"></div>
+    </div>
+    <div id="date-container">
+        <div id="date"></div>
+        <div id="date-format" class="hidden"></div>
+    </div>
+    <div id="settings">
+        <div id="cog" onclick="toggleSettings()">⚙️</div>
+        <div id="theme-selector" class="hidden">
+            <button onclick="setTheme('dark')">Dark</button>
+            <button onclick="setTheme('dgray')">Dark Gray</button>
+            <button onclick="setTheme('gray')">Gray</button>
+            <button onclick="setTheme('lgray')">Light Gray</button>
+            <button onclick="setTheme('light')">Light</button>
+            <h3>Select Time Format:</h3>
+            <div id="time-format-buttons">
+                <button onclick="setTimeFormat('24')">24</button>
+                <button onclick="setTimeFormat('12')">12</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
