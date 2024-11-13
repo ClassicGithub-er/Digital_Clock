@@ -12,3 +12,12 @@ This is a project I thought of because any digital clocks I looked at online jus
 
 - [@ClassicGithub-er](https://www.github.com/ClassicGithub-er) (me)
 - Artificial Intelligence
+## Authors
+
+- [@ClassicGithub-er](https://www.github.com/ClassicGithub-er) (me)
+- Artificial Intelligence
+
+
+## Screenshots
+
+![Exaple Image](https://github.com/ClassicGithub-er/Digital_Clock/blob/main/Example.png)
