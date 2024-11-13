@@ -8,12 +8,12 @@ This is a project I thought of because any digital clocks I looked at online jus
 - When pressing “D”, the “date” section will change from long format (Friday, October 11, 2022) to dd/mm/yy (11/10/22) and vice versa.
 - When pressing “S”, a schedule will appear at the top of the screen (configurable in script.js) and will disappear when pressing “S” once more.
 
-## Authors
-
-- [@ClassicGithub-er](https://www.github.com/ClassicGithub-er) (me)
-- Artificial Intelligence
-
 ## Screenshots
 
 ![Exaple Image](https://github.com/ClassicGithub-er/Digital_Clock/blob/main/Example.png)
 ![Exaple Image 0](https://github.com/ClassicGithub-er/Digital_Clock/blob/main/Example0.png)
+
+## Authors
+
+- [@ClassicGithub-er](https://www.github.com/ClassicGithub-er) (me)
+- Artificial Intelligence
