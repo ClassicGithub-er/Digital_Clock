@@ -13,7 +13,7 @@ This is a project I thought of because any digital clocks I looked at online jus
 ![Exaple Image](https://github.com/ClassicGithub-er/Digital_Clock/blob/main/Example.png)
 ![Exaple Image 0](https://github.com/ClassicGithub-er/Digital_Clock/blob/main/Example0.png)
 
-## Authors
+## Credits:
 
 - [@ClassicGithub-er](https://www.github.com/ClassicGithub-er) (me)
 - Artificial Intelligence
