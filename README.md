@@ -10,7 +10,7 @@ This is a project I thought of because any digital clocks I looked at online jus
 
 ## **TUTORIAL**
 
-First, download the code in this repository by pressing the green button that says "< > Code" at the top of the screen. After pressing the green button, click "Download Zip".
+First, download the code in this repository by pressing the green button that says "<> Code" at the top of the screen. After pressing the green button, click "Download Zip".
 
 ![Tutorial](https://github.com/ClassicGithub-er/Digital_Clock/blob/main/Images/Tutorial.png)
 
