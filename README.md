@@ -13,6 +13,7 @@ This is a project I thought of because any digital clocks I looked at online jus
 First, download the code in this repository by pressing the green button that says "< > Code". After pressing the green button, click "Download Zip".
 
 ![Tutorial](https://github.com/ClassicGithub-er/Digital_Clock/blob/main/Images/Tutorial.png)
+
 After downloading the zip file, unzip it by right clicking the file, then selecting "Extract All...". Open the folder that has been extracted from the zip file and delete "README.md" and "Images". Open "Digital Clock", then open "index.html".
 
 ## Screenshots
